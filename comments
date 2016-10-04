@@ -1,0 +1,4 @@
+git config --list // проверить конфиг
+git config --global [user.name] // прочитать/установить значения конфига
+
+// Git Basics
