@@ -45,6 +45,7 @@ flag -S // Only show commits adding or removing code matching the string
 
 git reset HEAD <file> // unstage a staged file
 
+git config --global alias.<alias> <command>
 
 
 
