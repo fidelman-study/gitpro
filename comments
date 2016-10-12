@@ -1,4 +1,4 @@
-git config --list // проверить конфиг
+﻿git config --list // проверить конфиг
 git config --global [user.name] // прочитать/установить значения конфига
 
 // Git Basics
@@ -44,6 +44,7 @@ flag --grep // Only show commits with a commit message con- taining the string
 flag -S // Only show commits adding or removing code matching the string
 
 git reset HEAD <file> // unstage a staged file
+
 
 
 
