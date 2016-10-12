@@ -50,5 +50,5 @@ git config --global alias.<alias> '<command>'
 git branch <name> // create a new branch
 git checkout <name> // checkout to <name> branch
 
-
+git checkout -b <name> // create and checkout to a new branch
 
