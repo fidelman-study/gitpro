@@ -51,4 +51,7 @@ git branch <name> // create a new branch
 git checkout <name> // checkout to <name> branch
 
 git checkout -b <name> // create and checkout to a new branch
-git branch <name> // merge <name> branch to the current
+git merge <name> // merge <name> branch to the current
+
+git branch -d <name> // delete the branch
+
