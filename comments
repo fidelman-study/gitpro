@@ -88,3 +88,8 @@ git rebase <branch>
 git checkout <branch>
 git merge <prev_branch>
 DONT PUSH COMMITS BEFORE REBASING
+
+git reset --soft <commit> // leaves out index
+git reset --hard <commit> // delete next after this commit
+
+
