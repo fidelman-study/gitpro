@@ -52,11 +52,14 @@ git checkout <name> // checkout to <name> branch
 
 git checkout -b <name> // create and checkout to a new branch
 git merge <name> // merge <name> branch to the current
+git merge -u // merge <remote>/<branch> like your local <branch>
 
 git branch -d <name> // delete the branch
 git branch -v // also show last commits
 git branch --merged/--no-merged // show merged or not merged branches
-git branch -D <name> // deelte an unmerged branch
+git branch -D <name> // delete an unmerged branch
+git branch -u <remote>/<branch> // create a track branch
+git branch -vv // show last commits and remote branches
 
 ____Destribute Branch
 Topic Branches
@@ -66,4 +69,16 @@ Long-Running Branches
   You have some open branches. You have master and some parallel workflow. When you have done a stable version you merge it. It is fir big project.
 
 
+git ls-remote <remote> 
+git remote show <remote> // show information about the remote branch
 
+git push <remote> <branch>
+git push <remote> <local_branch>:<remote_branch>
+
+git checkout --track <remote>/<branch> // create a track branch
+
+git fetch --all // fetch all remote branches
+
+git pull // fetch and merge
+
+git push <remote> --delete <branch> // delete remote branch
