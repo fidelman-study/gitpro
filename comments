@@ -82,3 +82,9 @@ git fetch --all // fetch all remote branches
 git pull // fetch and merge
 
 git push <remote> --delete <branch> // delete remote branch
+
+__Rebasing
+git rebase <branch>
+git checkout <branch>
+git merge <prev_branch>
+DONT PUSH COMMITS BEFORE REBASING
