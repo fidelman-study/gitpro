@@ -92,4 +92,4 @@ DONT PUSH COMMITS BEFORE REBASING
 git reset --soft <commit> // leaves out index
 git reset --hard <commit> // delete next after this commit
 
-
+ssh-keygen -> Enter -> Enter -> Enter -> ~/.ssh/id_rsa.pub // create SSH key
