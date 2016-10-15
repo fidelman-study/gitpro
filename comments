@@ -98,5 +98,8 @@ git reflog // show where HEAD and branch references have been for the last few m
 
 git stash // save unfinished changes (e.g. to switch to another branch) it is keeped in STACK
 git stash list // show stashes
-
-git stash apply <stash> // apply you stashes
+git stash --keep-index // stash only unstaged files
+git stash apply --index <stash> // apply your stashes
+git stash drop <stash> // delete stash
+git stash -u // stash also untracked files
+git stash branch <branch> // creating a branch from a stash
