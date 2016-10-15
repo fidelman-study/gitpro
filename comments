@@ -93,3 +93,10 @@ git reset --soft <commit> // leaves out index
 git reset --hard <commit> // delete next after this commit
 
 ssh-keygen -> Enter -> Enter -> Enter -> ~/.ssh/id_rsa.pub // create SSH key
+
+git reflog // show where HEAD and branch references have been for the last few months
+
+git stash // save unfinished changes (e.g. to switch to another branch) it is keeped in STACK
+git stash list // show stashes
+
+git stash apply <stash> // apply you stashes
