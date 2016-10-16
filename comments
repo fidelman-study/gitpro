@@ -3,7 +3,7 @@ git config --global [user.name] // прочитать/установить зн�
 
 // Git Basics
 git clone https://github.com/libgit2/libgit2 myname
-git status -s // short status
+git status -s/-sb // short status
 git diff // show lines
 
 git commit -a -m'text' // -a flag adds all files to the stage
@@ -107,3 +107,5 @@ git stash branch <branch> // creating a branch from a stash
 
 
 git commit --amend // change last commit message
+
+git checkout <commit> // checkout to the commit
